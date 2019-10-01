@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body{   
+    font-family:  'Open Sans', sans-serif;
+    background-color: #3e3b4a;
+    color: #ffffff;
+}
+img{    
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/*Header*/
+.container{ 
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+header .container{   
+    padding-top: 72px;
+    padding-bottom: 72px;
+    justify-content: space-between;
+    align-items: center;
+    color: #686571;
+}
+header a{ 
+    margin-right: 10px;  
+    color: #686571;
+    display: block;
+}
+.hdr-left a{   
+    display: flex;  
+    align-items: center;
+    vertical-align: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+}
+.hdr-left a span{
+    margin-left: 7px;
+}
+.hdr-left a:hover{
+    color: #eb7b61;
+    font-size: 13px;
+}
+.hdr-center{   
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center; 
+}
+.hdr-right a{   
+    display: flex;  
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+.hdr-right a span{
+    margin-right: 4px;
+}
+.hdr-right a:hover{
+    color: #7dc3cf;
+    font-size: 13px;
+}
+.hdr-dmt{
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+}
+/*Menu*/
+.container1{
+    background: url(img/square1-bg.jpg) no-repeat center center;
+    width: 1020px;
+    height: 512px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 39px;
+}
+.home{
+    text-transform: uppercase;
+    color: #ffc7b0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    list-style-type: none;
+}
+.buster{
+    line-height: 76px;
+    font-size: 72px;
+    font-weight: 700;
+    list-style-type: none;
+}
+.first{
+    font-size: 34px;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.rdme{
+    font-size: 20px;
+    border: 3px solid #ffe18f;
+    padding: 10px 8px 10px 8px;
+    margin-top: 75px;
+    width: 120px;
+    font-weight: 700;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+.rdme:hover{
+    font-size: 21px;
+}
+.container2{
+    margin-top: 20px;
+    width: 622px;
+    height: 485px;
+    background: #7dc3cf url(img/square2-bg.png) no-repeat top right;
+    box-sizing: border-box;
+    padding-top: 36px;
+    margin-right: 20px;
+}
+.acc{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 30px;
+    letter-spacing: 0.2em;
+    color: #ffc7b0;
+    list-style-type: none;
+}
+.peak{
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 22px;
+    list-style-type: none;
+}
+.playful{
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.rdme2{
+    font-size: 20px;
+    border: 3px solid #ffe18f;
+    margin-left: 50px;
+    padding: 10px 8px 10px 8px;
+    margin-top: 145px;
+    width: 120px;
+    font-weight: 700;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+.rdme2:hover{
+    font-size: 21px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.container2-1{
+    margin-top: 20px;
+    width: 378px;
+    height: auto;
+    background: #eb7b61;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 65px;
+}
+.good{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    list-style-type: none;
+}
+.come{
+    font-family: 'times new roman';
+    font-size: 24px;
+    margin-bottom: 38px;
+    line-height: 28px;
+    list-style-type: none;
+}
+.yrel{
+    width: 285px;
+    line-height: 34px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    border: 3px solid #ffd9d1;
+    color: #ffd9d1;
+    background: none;
+    margin-bottom: 18px;
+}
+.subscribe{
+    width: 285px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background: #66689c;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+    list-style-type: none;
+    margin: 0 auto;
+}
+.subscribe:hover{
+    font-size: 21px;
+}
+.we{
+    font-size: 14px;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.container3{
+    background: url(img/square4-bg.jpg) no-repeat center center;
+    margin-top: 20px;
+    width: 260px;
+    height: 420px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 33px 0 39px 0;
+}
+.cameras{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #ffc7b0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.leica{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.review{
+    font-size: 20px;
+    font-weight: 700;
+    color: #3d3c4a;
+    background: #ffe18e;
+    width: 93px;
+    text-align: center;
+    line-height: 42px;
+    margin: 0 auto;
+}
+.review:hover{
+    font-size: 21px;
+    background: cadetblue;
+}
+.container3-2{
+    background: url(img/square5-bg.jpg) no-repeat no-repeat;
+    margin-right: 20px;
+    flex-basis: 260px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sound{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #ffc7b0;
+    text-transform: uppercase;
+    margin-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.trobla{
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-align: center;
+}
+.review2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #3d3c4a;
+    background: #ffe18e;
+    width: 93px;
+    text-align: center;
+    line-height: 42px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+.review2:hover{
+    font-size: 21px;
+    background: cadetblue;
+}
+.container3-3{
+    background: url(img/square6-bg.png) no-repeat no-repeat bottom right #1ab467;
+    flex-basis: 460px;
+    height: 420px;
+    margin-top: 20px;
+}
+.cameras2{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #ffc7b0;
+    margin-left: 42px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.leica2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 42px;
+    margin-top: 15px;
+}
+.limited{
+    margin-left: 42px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 168px;
+}
+.rdme3{
+    font-size: 20px;
+    border: 3px solid #ffe18f;
+    margin-left: 42px;
+    padding: 10px 8px 10px 8px;
+    margin-top: 55px;
+    letter-spacing: 0.2px;
+    width: 120px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+.rdme3:hover a{
+    font-size: 21px;
+    color: crimson;
+}
+/*Footer*/
+footer .container{  
+    padding-top: 55px;
+    padding-bottom: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-bottom{   
+    font-size: 14px;
+    color: #898691;
+}
+.qwer{
+    margin-right: 6px;
+}
+/*Media?*/
+
+
